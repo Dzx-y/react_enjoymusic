@@ -1,0 +1,25 @@
+.content{
+	width: 100%;
+	height: 1200px;
+	border-bottom: 1px solid #ccc;
+}
+.songContent{
+	width: 864px;
+	height: 1200px;	
+	margin: auto;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	box-sizing: border-box;
+}
+
+.songList{
+	width: 600px;
+	height: 1200px;
+	float: left;
+	border-right: 1px solid #C62F2F;
+}
+.extraList{
+	width: 262px;
+	height: 1200px;
+	float: left;
+}

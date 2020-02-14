@@ -1,0 +1,284 @@
+.nextSongList{
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+	background-color: rgb(245,245,245);
+}
+
+.nextSongListCon{
+	width: 980px;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin: auto;
+	background-color: white;
+	overflow: hidden;
+}
+
+.nextSongListLeft{
+	width: 700px;
+	height: 100%;
+	background-color: white;
+	float: left;
+	border-right: 1px solid #C62F2F;
+}
+
+.nextSongListRight{
+	width: 278px;
+	height: 100%;
+	float: left;
+}
+
+.nextSongListBox{
+	width: 640px;
+	height: 100%;
+	/*background-color: deepskyblue;*/
+	margin: 40px auto;
+	border-bottom: 1px solid #ccc;
+}
+
+.topTitleCon{
+	width: 640px;
+	height: 300px;
+	border-bottom: 1px solid #ccc;
+}
+
+.titleImg{
+	width: 200px;
+	height: 300px;
+	float: left;
+}
+.titleImg img{
+	width: 200px;
+	height: 200px;
+	border-radius: 8px;
+}
+
+.titleDetail{
+	width: 440px;
+	height: 300px;
+	float: left;
+	padding-left: 30px;
+	overflow: hidden;
+}
+
+.titleDetail .nextlistTitle{
+	width: 410px;
+	height: 60px;
+	overflow: hidden;
+	font-size: 20px;
+	color: black;
+}
+
+.nextlistAuthor img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.nextlistAuthor span{
+	margin-left: 10px;
+	color: black;
+}
+
+.nextlistTag{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.nextlistTag .tagName{
+	width: 40px;
+	height: 20px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: rgb(245,245,245);
+	margin-left: 5px;
+	float: left;
+	text-align: center;
+	line-height: 20px;
+}
+
+.listTagName{
+	float: left;
+}
+
+.introCon{
+	width: 410px;
+	height: 130px;
+	overflow: hidden;
+	padding-left: 30px;
+}
+
+
+
+
+
+
+.songContentAll{
+	width: 640px;
+	height: 100%;
+	margin-top: 20px;
+	
+}
+.songContentTitle{
+	width: 640px;
+	height: 50px;
+	border-bottom: 2px solid #C62F2F;
+	box-sizing: border-box;
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: 700;
+}
+.songContentList{
+	width: 640px;
+	height: 100%;
+	border: 1px solid #ccc;
+}
+
+.songGuide{
+	width: 638px;
+	height: 40px;
+	background-color: rgb(242,242,242);
+	border-bottom: 1px solid #ccc;
+}
+
+.songGuideRank{
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+.songGuideImg{
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	border-left: 1px solid #ccc;
+}
+
+.songGuideName{
+	width: 230px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.songGuideArtist{
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	border-left: 1px solid #ccc;
+	overflow: hidden;
+}
+
+.songGuideAlbum{
+	width: 188px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	border-left: 1px solid #ccc;
+}
+
+
+
+
+.songListBgCon:nth-child(odd){
+	background-color: rgb(245,245,245);
+}
+.songGuideCon{
+	width: 638px;
+	height: 40px;
+	margin-top: 3px;
+}
+
+.songGuideRankCon{
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	color: black;
+}
+.songGuideImgCon{
+	width: 60px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	overflow: hidden;
+}
+.songGuideImgCon img{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+.songGuideNameCon{
+	width: 230px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	overflow: hidden;
+}
+.songGuideNameCon a{
+	color: black;
+}
+.songGuideNameCon a:hover{
+	color: #C62F2F;
+}
+
+.songGuideArtistCon{
+	width: 100px;
+	height: 40px;	
+	line-height: 40px;
+	float: left;	
+	color: black;
+	overflow: hidden;
+}
+
+.songGuideArtistInCon{
+	width: 50px;
+	height: 40px;
+	float: left;
+	overflow: hidden;
+	
+}
+
+
+.songGuideAlbumCon{
+	width: 188px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	overflow: hidden;
+	color: black;
+}
+.songGuideAlbumCon a{
+	color: black;
+}
+
+.songGuideAlbumCon a:hover{
+	color: #C62F2F;
+}
+
+.ant-back-top-inner:hover{
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding-left: 3px;
+}
+
+.songGuideArtistInCon a{
+	color: black;
+}
+.songGuideArtistInCon a:hover{
+	color: #C62F2F;
+}

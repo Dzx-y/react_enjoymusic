@@ -1,0 +1,100 @@
+.artistCateList{
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+	background-color: rgb(245,245,245);
+}
+
+.artistCateCon{
+	width: 980px;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+.artistCateNav{
+	width: 180px;
+	height: 100%;
+	float: left;
+	background-color: rgb(245,245,245);
+	overflow: hidden;
+}
+
+.artistCateConBox{
+	width: 798px;
+	height: 100%;
+	float: left;
+	background-color: white;
+	margin-bottom: 50px;
+}
+.suggest{
+	width: 140px;
+	height: 120px;
+	margin: auto;
+	border-bottom: 1px solid #ccc;
+	margin-top: 10px;
+}
+.suggest ul li{
+	list-style-type: none;
+}
+.suggest ul li a{
+	color: black;
+}
+.suggest ul li a:hover{
+	color: #C62F2F;
+}
+.suggest p{
+	font-size: 18px;
+	font-weight: 700;
+	color: black;
+}
+
+
+
+
+
+.cateBoxTitle{
+	width: 720px;
+	height: 50px;
+	border-bottom: 2px solid #C62F2F;
+	box-sizing: border-box;
+	font-size: 20px;
+	color: black;
+	line-height: 50px;
+	margin: 20px auto;
+}
+
+.cateInlineBox{
+	width: 790px;
+	height: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.everyListBox{
+	width: 110px;
+	height: 130px;
+	margin-left: 40px;
+	margin-top: 30px;
+	float: left;
+}
+
+.everyListBoxImg{
+	width: 110px;
+	height: 110px;
+	overflow: hidden;
+}
+
+.everyListBoxImg img{
+	width: 110px;
+	height: 110px;
+}
+
+.everyListBoxName{
+	font-size: 14px;
+	color: black;
+	overflow: hidden;
+}

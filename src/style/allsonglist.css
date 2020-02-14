@@ -1,0 +1,56 @@
+.allListContent{
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+	background-color: rgb(245,245,245);
+}
+
+.allListContentBox{
+	width: 980px;
+	height: 4700px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	margin: auto;
+	background-color: white;
+	overflow: hidden;
+}
+
+
+.allListTitle{
+	width: 900px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 2px solid #C62F2F;
+	box-sizing: border-box;
+	font-size: 20px;
+	font-weight: 700;
+	color: black;
+	margin: auto;
+}
+
+.allListSongDetail{
+	width: 980px;
+	height: 4700px;
+}
+
+
+.allListSongBox{
+	width: 148px;
+	height: 200px;
+	float: left;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+.songImgBox{
+	width: 148px;
+	height: 148px;
+}
+.songImgBox img{
+	width: 148px;
+	height: 148px;
+}
+
+.songInfoBox{
+	overflow: hidden;
+	color: black;
+}

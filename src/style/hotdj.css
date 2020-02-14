@@ -1,0 +1,75 @@
+.hotDJListCon{
+	width: 250px;
+	height: 540px;
+	margin: 20px auto;
+	border-bottom: 1px solid #ccc;
+}
+
+.hotDJListTitle{
+	width: 250px;
+	height: 40px;
+	border-bottom: 1px solid #C62F2F;
+	box-sizing: border-box;
+}
+
+.hotDJListTitle .listTitle{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 40px;
+	color: black;
+}
+.hotDJListTitle .hotLoadMore{
+	margin-left: 110px;
+}
+.hotLoadMore a{
+	color: black;
+}
+.hotLoadMore a:hover{
+	color: #C62F2F;
+}
+
+
+
+.DJlistCon{
+	width: 250px;
+	height: 560px;
+	overflow: hidden;
+}
+.djList{
+	width: 250px;
+	height: 60px;
+	margin-top: 20px;
+}
+
+.djImg{
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+	float: left;
+	overflow: hidden;
+
+}
+.djImg img{
+	width: 60px;
+	height: 60px;
+}
+.djName{
+	width: 190px;
+	height: 60px;
+	float: left;
+	padding-left: 20px;
+	color: black;
+	overflow: hidden;
+}
+
+.djTltleName{
+	font-size: 14px;
+	font-weight: 700;
+	width: 190px;
+	height: 21px;
+	overflow: hidden;
+	
+}
+.djTltleNickname{
+	font-size: 12px;	
+}

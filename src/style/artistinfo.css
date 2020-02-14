@@ -1,0 +1,154 @@
+.infoContent{
+	width: 100%;
+	height: 100%;
+	background-color:rgb(245,245,245);
+	margin-top: 50px;
+}
+
+.infoContentBox{
+	width: 980px;
+	height: 100%;
+	margin: auto;
+	background-color: white;
+}
+
+.infoContentLeft{
+	width: 700px;
+	height: 100%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	float: left;
+}
+.infoContentRight{
+	width: 270px;
+	height: 100%;
+	float: left;
+}
+
+.contentInBox{
+	width: 640px;
+	height: 100%;
+	margin: 30px auto;
+}
+
+
+.contentInBoxName{
+	width: 640px;
+	height: 40px;
+	font-size: 20px;
+	color: black;
+	line-height: 40px;
+}
+
+.contentInBoxImg{
+	width: 640px;
+	height: 300px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+.contentInBoxImg img{
+	width: 640px;
+	height: 500px;
+}
+
+.contentInBoxIntro{
+	width: 640px;
+	height: 210px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.contentInBoxIntro p{
+	font-size: 16px;
+	color: black;
+}
+.contentInBoxIntroDe{
+	width: 600px;
+	height: 170px;
+	margin-top: 10px;
+	margin: auto;
+	font-size: 14px;
+}
+
+.contentInBoxSongs{
+	width: 640px;
+	height: 100%;
+	margin: 20px auto;
+}
+
+.listBoxTitleOn{
+	width: 640px;
+	height: 40px;
+	font-size: 16px;
+	color: black;
+	border-bottom: 2px solid #C62F2F;
+}
+.listBoxTitleDown{
+	width: 640px;
+	height: 100%;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+}
+
+.allListSongsBoxDe{
+	width: 640px;
+	height: 40px;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+
+.listBoxSongsNum{
+	width: 40px;
+	height: 40px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	
+}
+.listBoxSongsImg{
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	float: left;
+}
+.listBoxSongsImg img{
+	width: 40px;
+	height: 40px;
+}
+.listBoxSongsName{
+	width: 280px;
+	height: 40px;
+	overflow: hidden;
+	font-size: 14px;
+	color: black;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+.listBoxSongsName a{
+	color: black;
+}
+.listBoxSongsName a:hover{
+	color: #C62F2F;
+}
+
+.listBoxSongsAlbum{
+	width: 280px;
+	height: 40px;
+	overflow: hidden;
+	font-size: 14px;
+	color: black;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+}
+.listBoxSongsAlbum a{
+	color: black;
+}
+.listBoxSongsAlbum a:hover{
+	color: #C62F2F;
+}
+.listBoxTitleDown:nth-child(odd){
+	background-color: rgb(245,245,245);
+}

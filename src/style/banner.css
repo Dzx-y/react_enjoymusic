@@ -1,0 +1,32 @@
+.ant-carousel .slick-slide img{
+  text-align: center;
+  width: 100%;
+  height: 320px;
+  
+/*  overflow: hidden;*/
+  
+}
+
+.carousel{
+	background-size: cover;	
+	width: 864px;
+	margin: auto;
+	z-index: 1;
+}
+.carouselCon{
+	margin-top: 50px;
+	width: 100%;
+	height: 320px;
+	position: relative;
+	
+	
+}
+
+.backImg{
+  	filter: blur(30px);
+  	z-index: 0;
+  	position: absolute;
+  	top: 0;
+  	width: 100%;
+  	height: 320px;
+}

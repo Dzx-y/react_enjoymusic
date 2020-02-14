@@ -1,0 +1,195 @@
+.header{
+	width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.headerCon{
+	width: 94%;
+	height: 50px;
+	margin: auto;
+}
+
+/*logo样式*/
+.logoCon{
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	float: left;
+}
+
+.logo{
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	margin: auto;
+}
+
+.logoImg{
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+}
+.logoTitle{
+	font-size: 20px;
+	color: white;
+	vertical-align: sub;
+	margin-left: 5px;
+	font-weight: 700;
+}
+
+/*导航栏样式*/
+.navbar{
+	width: 600px;
+	height: 50px;
+	float: left;
+	overflow: hidden;
+}
+.navbar ul li{
+	width: 120px;
+	height: 50px;
+	float: left;
+	list-style-type: none;
+	line-height: 50px;
+	text-align: center;
+	font-size: 16px;
+	background-color: black;
+}
+.navbar ul li a{
+	color: white;
+}
+.navbar ul li:hover{
+	background-color: white;
+	cursor: pointer;
+	
+}
+.navbar ul li a:hover{
+	color: black;
+	font-weight: 700;
+}
+/*.navbar ul li:first-child{
+	background-color: white;
+	font-weight: 700;
+	cursor: pointer;
+	color: black;
+}*/
+
+
+/*搜索框*/
+.search{
+	position: relative;
+	top: 10px;
+	left: 40px;
+}
+
+.search input{
+	float: left;
+	width: 180px;
+	height: 30px;
+	border: 0;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	padding-left: 15px;
+	outline: none;
+	overflow: hidden;
+	
+}
+.searchIcon{
+	float: left;
+	width: 30px;
+	height: 30px;
+	position: relative;
+	top: 10px;
+	left: 40px;
+	background-color: antiquewhite;
+	border-bottom-right-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+.searchIcon img{
+	margin-left: 5px;
+	margin-top: 2px;
+}
+
+/*登录*/
+.headImg{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	float: left;
+	position: relative;
+	top: 5px;
+	left: 120px;	
+}
+.login{
+	position: relative;
+	top: 15px;
+	left: 130px;
+	color: white;
+}
+
+
+#searchBox{
+	width: 250px;
+	height: 400px;
+	position: absolute;
+	top: 50px;
+	right: 275px;
+	background-color: white;
+	display: none;
+	box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.searchBoxSongs{
+	width: 250px;
+	height: 150px;
+	overflow: hidden;
+}
+.searchBoxAlbums{
+	width: 250px;
+	height: 150px;
+	overflow: hidden;
+}
+.searchBoxMVs{
+	width: 250px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#searchBox p{
+	font-size: 16px;
+	color: black;
+	
+}
+
+.inLineSearchBox{
+	width: 230px;
+	height: 110px;
+	overflow: hidden;	
+	margin: auto;
+	
+}
+.inLineSearchBox span{
+	font-size: 12px;
+}
+
+.inLineSearchBox a{
+	color: black;
+}
+.inLineSearchBox a:hover{
+	color: #C62F2F;
+}
+
+
+.sadImg{
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+.sadImg img{
+	width: 60px;
+	height: 60px;
+}

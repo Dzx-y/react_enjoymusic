@@ -1,0 +1,62 @@
+.topArtistCon{
+	width: 250px;
+	height: 620px;
+	margin: 20px auto;
+	border-bottom: 1px solid #ccc;
+}
+
+.topArtistTitle{
+	width: 250px;
+	height: 40px;
+	border-bottom: 1px solid #C62F2F;
+	box-sizing: border-box;
+}
+
+.topArtistTitle .listTitle{
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 40px;
+	color: black;
+}
+.topArtistTitle .topLoadMore{
+	margin-left: 140px;
+}
+.topLoadMore a{
+	color: black;
+}
+.topLoadMore a:hover{
+	color: #C62F2F;
+}
+
+
+.artistlistCon{
+	width: 250px;
+	height: 560px;
+	overflow: hidden;
+}
+.artistList{
+	width: 250px;
+	height: 60px;
+	margin-top: 10px;
+}
+
+.artistImg{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	float: left;
+	overflow: hidden;
+
+}
+.artistImg img{
+	width: 60px;
+	height: 60px;
+}
+.artistName{
+	width: 190px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	padding-left: 20px;
+	color: black;
+}

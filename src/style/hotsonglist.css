@@ -1,0 +1,74 @@
+.listContent{
+	width: 550px;
+	height: 550px;
+	margin: auto;
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+
+.hotList{
+	width: 550px;
+	height: 50px;
+	margin: 10px auto;
+	border-bottom: 4px solid #C62F2F;
+	box-sizing: border-box;
+		
+}
+.hotList .listTitle{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 50px;
+	color: black;
+}
+.hotList .loadMore{
+	margin-left: 434px;
+}
+.loadMore a{
+	color: black;
+}
+.loadMore a:hover{
+	color: #C62F2F;
+}
+
+.songCon{
+	width: 550px;
+	height: 500px;
+	margin: 20px auto;
+}
+
+.songBox{
+	width: 120px;
+	height: 140px;
+	float: left;
+	margin: 5px;
+}
+
+.boxCon{
+	width: 100px;
+	height: 140px;
+	margin: auto;
+}
+.songImg{
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.songImg img{
+	width: 100px;
+	height: 100px;
+
+}
+.songDesc{
+	width: 100px;
+	height: 40px;
+	overflow: hidden;
+}
+.songDesc span{
+	color: black;
+	font-size: 12px;
+	
+}
+.songDesc span:hover{
+	color: #C62F2F;
+}

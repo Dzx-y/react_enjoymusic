@@ -1,0 +1,84 @@
+.rankCon{
+	margin-top: 50px;
+}
+.rankTitle{
+	width: 550px;
+	height: 50px;
+	margin: 10px auto;
+	border-bottom: 4px solid #C62F2F;
+	box-sizing: border-box;
+	/*font-size: 18px;
+	font-weight: 700;
+	line-height: 50px;
+	color: black;*/
+}
+
+.rankTitle .listTitle{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 50px;
+	color: black;
+}
+.rankTitle .rankLoadMore{
+	margin-left: 470px;
+}
+.rankLoadMore a{
+	color: black;
+}
+.rankLoadMore a:hover{
+	color: #C62F2F;
+}
+
+
+.rankListCon{
+	width: 550px;
+	height: 300px;
+	border: 1px solid #ccc;
+	margin: auto;
+}
+
+.rankBox{
+	width: 260px;
+	height: 135px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.rankInBox{
+	width: 250px;
+	height: 100px;
+	margin: auto;
+	margin-top: 18px;
+	background-color: white;
+}
+
+.rankImg{
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	overflow: hidden;
+	float: left;
+}
+.rankImg img{
+	width: 100px;
+	height: 100px;
+}
+
+.rankSong{
+	width: 140px;
+	height: 96px;
+	overflow: hidden;
+	margin-top: 2px;
+	margin-left: 5px;
+	float: left;
+	background-color: rgba(124,124,124,0.1);
+	font-size: 13px;
+	color: black;
+}
+.rankSong a{
+	color: black;
+}
+.rankSong a:hover{
+	color: #C62F2F;
+}
